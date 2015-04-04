@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B0FA6F61ACE7AFB005D0F56 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0FA6F51ACE7AFB005D0F56 /* CalculatorBrain.swift */; };
 		4B1C5B771AC461FE00AEC5AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1C5B761AC461FE00AEC5AD /* AppDelegate.swift */; };
 		4B1C5B791AC461FE00AEC5AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1C5B781AC461FE00AEC5AD /* ViewController.swift */; };
 		4B1C5B7C1AC461FE00AEC5AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1C5B7A1AC461FE00AEC5AD /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B0FA6F51ACE7AFB005D0F56 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		4B1C5B711AC461FE00AEC5AD /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1C5B751AC461FE00AEC5AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B1C5B761AC461FE00AEC5AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				4B1C5B761AC461FE00AEC5AD /* AppDelegate.swift */,
 				4B1C5B781AC461FE00AEC5AD /* ViewController.swift */,
+				4B0FA6F51ACE7AFB005D0F56 /* CalculatorBrain.swift */,
 				4B1C5B7A1AC461FE00AEC5AD /* Main.storyboard */,
 				4B1C5B7D1AC461FE00AEC5AD /* Images.xcassets */,
 				4B1C5B7F1AC461FE00AEC5AD /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B0FA6F61ACE7AFB005D0F56 /* CalculatorBrain.swift in Sources */,
 				4B1C5B791AC461FE00AEC5AD /* ViewController.swift in Sources */,
 				4B1C5B771AC461FE00AEC5AD /* AppDelegate.swift in Sources */,
 			);
@@ -407,6 +411,7 @@
 				4B1C5B921AC461FE00AEC5AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B1C5B931AC461FE00AEC5AD /* Build configuration list for PBXNativeTarget "calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				4B1C5B951AC461FE00AEC5AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
